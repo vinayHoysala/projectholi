@@ -1,0 +1,67 @@
+style
+body{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(93, 130, 131);
+    background-size: cover;
+    background-image: url("images/DSCN9916.jpg");
+}
+form{
+    margin-left: 35%;
+    display: flexbox;
+}
+nav {
+    display: flex;
+    padding: 0px;
+}
+ul {
+    margin-left: 30%;
+}
+li {
+    display: inline;
+    margin-left: 40px;
+}
+.appdetail{
+    display: flexbox;
+}
+footer{
+    display: flex;
+    margin-left: 35%;
+    color: gray;
+}
+.login{
+    margin-left: 80%;
+}
+div{
+    display: flexbox;
+}
+.appdetail{
+    color: beige;
+    display: inline;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.appdetail::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.appdetail:hover,.appdetail:active{
+    background-color: cornsilk;
+    font-size: 120%;
+}
+.free{
+    color: azure;
+    margin-left: 40%;
+}
+.login{
+    font-size: large;
+}
+button{
+    size: 20%;
+    background-color: deeppink;
+}

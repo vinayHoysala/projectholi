@@ -1,0 +1,12 @@
+style{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-size: cover;
+    background-image: url("images/01.png");
+}
+p{
+    color: darkred;
+    font-size: x-large;
+}
